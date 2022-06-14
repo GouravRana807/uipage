@@ -1,0 +1,87 @@
+.lif{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+.kif{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+.jif{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width:648px){
+    .jif{
+        flex-wrap:wrap ;
+    }
+}
+.rif{
+    font-size: 2.5rem;
+    font-weight:600;
+    margin-top: -0.6rem;
+    margin-left: -1.2rem;
+}
+.ml{
+    /* border: none;
+    height: 3px;
+    color: #dddddd; */
+    position: relative;
+    top: 10px;
+    border: none;
+    width: 75%;
+    height: 3px;
+    background: #dddddd;
+    margin-bottom: 25px;
+    opacity: 0.5;
+}
+.kl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    margin: 1rem;
+    font-size: 9.2rem!important;
+    opacity: 0.7;
+}
+.nl{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.ad:hover{
+    color: rgb(47, 192, 168);
+}
+.ad{
+    margin: 0.6rem;
+}
+.it {
+    width: 100vw!important;
+    height: 100vh!important;
+    background-color: red!important;
+    color: blue!important;
+    /* border-radius: 41%; */
+    padding: 3rem;
+    margin-right: -14rem;
+    border: 8px solid rgb(22, 11, 180);
+}
+
+.imageContainer {
+    /* width: 200px; */
+    /* width: 100%; */
+    width: 100vw;
+}
+
+.imageContainer > div {
+    position: unset !important;
+}
+
+.image {
+    object-fit: contain;
+    /* width: 10vw !important; */
+    /* width: 100% !important; */
+    /* width: 100% !important; */
+    /* position: relative!important; */
+    /* height: unset !important; */
+}
